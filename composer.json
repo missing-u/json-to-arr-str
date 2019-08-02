@@ -1,0 +1,18 @@
+{
+    "name": "yiche/json-to-arr",
+    "description": "Laravel",
+    "authors": [
+        {
+            "name": "杨益民",
+            "email": "744541711@qq.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonToArr\\": "src/"
+        }
+    }
+}
