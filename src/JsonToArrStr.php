@@ -9,7 +9,7 @@
 namespace JsonToArr;
 
 
-class JsonToArr
+class JsonToArrStr
 {
 
     public static function main($json)
@@ -32,7 +32,7 @@ class JsonToArr
             $result .= ']';
 
         } else {
-            $result = '"$content"';
+            $result = "'$content'";
         }
 
         return $result;
