@@ -2,9 +2,10 @@
 
 示例
 ```
-将
-{"age":10}
-转为
-['age' => '10',]
-```
+        $in = '{"user":{"name":"yang","age":10}}';
 
+        $out = JsonToArrStr::main($json);
+        
+        you will get "['user' => ['name' => 'yang','age' => '10',],]";
+        
+```
